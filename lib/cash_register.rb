@@ -20,7 +20,7 @@ class CashRegister
     if @discount != 0
     total_w_discount = @total - @discount
     total_w_discount
-    "#{total_w_discount}"
+    "After the discount, the total comes to $#{total_w_discount}."
     else
       "There is no discount to apply."
     end
