@@ -18,7 +18,7 @@ class CashRegister
   
   def apply_discount
     if @discount != 0
-    total_w_discount = @total.to_f - @discount.to_f
+    total_w_discount = @total - @discount.to_f
     "After the discount, the total comes to $#{total_w_discount}."
     else
       "There is no discount to apply."
