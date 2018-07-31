@@ -24,7 +24,7 @@ class CashRegister
     else
       "There is no discount to apply."
     end
-    binding.pry
+    #binding.pry
   end
       
   def items
