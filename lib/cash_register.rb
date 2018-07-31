@@ -19,6 +19,8 @@ class CashRegister
     "#{total_w_discount}"
     else
       "There is no discount to apply."
+    end
+  end
       
   def items
     @items
